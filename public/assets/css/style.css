@@ -1,0 +1,147 @@
+/* :root{
+    
+} */
+
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.centerText {
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px 0px 20px 0px;
+    padding: 10px;
+}
+
+.aboutMeText {
+    text-align: center;
+    font-size: 1rem;
+}
+
+body {
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex; flex-direction: column;
+}
+h1{
+    text-align: center;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+header h1 {
+    font-size: 3rem; 
+}
+
+img {
+    width: 20%;
+    height: auto;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+header nav a {
+    color: #ffffff;
+
+}
+
+.work {
+    border: 1px solid pink;
+    /* height: 500px; */
+    display:flex;
+    flex-direction: column;
+}
+.mainProject {
+    /* height: 40%; */
+    height: 250px;
+    width: 100%;
+    /* outline: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 0px -150px; */
+    background-position: center;
+}
+
+
+.projectRow {
+    /* height:30% */
+    display: flex;
+    flex-direction: row;
+}
+
+.projectRow a {
+    display: block;
+    /* outline: 2px solid red; */
+    width: 50%;
+}
+
+.project {
+    display: flex;
+    height: 250px;
+
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 0px -150px; */
+    background-position: center;
+    margin: 5px;
+}
+
+.project:hover, .mainProject:hover {
+    outline: 5px solid navy;
+}
+
+#project-1 {
+    background-image: url(../images/Image\ 1.jpeg);
+}
+
+#project-2 {
+    background-image: url(../images/image\ 2.jpeg);
+}
+
+#project-3 {
+    background-image: url(../images/Image\ 3.jpeg);
+}
+
+#project-4 {
+    background-image: url(../images/images\ 4.jpeg);
+}
+
+#project-5 {
+    background-image: url(../images/images\ 5.jpeg);
+}
+
+footer {
+    justify-content: space-between;
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}
+
+footer h2 {
+    justify-content: space-between;
+    font-size: 20px;
+    margin: 20px 0px 20px 0px;
+}
